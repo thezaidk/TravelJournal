@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+  color: white;
+}
+
+.nav--logo {
+  width: 35px;
+}
+
+.nav--title {
+  padding-left: 10px
+}
+
+/* Card */
+
+.card--container {
+  display: flex;
+  height: 250px;
+  margin: 50px;
+}
+
+.card--img {
+  margin-right: 30px;
+}
+
+.card--locationInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 5px;
+}
+
+.card--locationIcon {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.card--location {
+  margin: 0px;
+  font-weight: 400;
+}
+
+.card--locationLink {
+  color: #918E9B;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+.card--title {
+  margin-top: 0px;
+}
+
+.card--dates {
+  margin: 0px;
+}
+
+.card--desc {
+  font-size: 0.9em;
+}
